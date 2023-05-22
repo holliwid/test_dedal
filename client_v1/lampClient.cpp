@@ -213,7 +213,10 @@ void LampClient::handleResponse(QNetworkReply *reply) {
                         lamps.append(lamp);
                     }
                 }
-                selectedLampId = lamps[0].getId();
+                if (lamps.length() != 0){
+                    selectedLampId = lamps[0].getId();
+                }
+
 
                 // Update the QComboBox with the lamp names
                 QStringList lampNames;
