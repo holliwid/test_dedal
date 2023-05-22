@@ -1,14 +1,11 @@
 # test_dedal
 ![interface](https://sun9-41.userapi.com/impg/Qx5XEPlNJ0JRQjLr9A3HngUhOIEox2vJgDnQlg/v1GjczqcX9g.jpg?size=1920x1080&quality=96&sign=720c7e89e2ad8a9ed8fa9d281755799e&type=album)
-БД находится в server_v1 и называется lamps.db с единиственной таблицей
-lamps(lamp_id INTEGER PRIMARY KEY AUTOINCREMENT, lamp_on BOOL)
+
 
 # НАСТРОЙКА БД
-### Надо указать полный путь до БД. Файл server_v1/main.cpp строчка 26
-
-
-### Я не очень понимаю как собирать проект.
-Могу сказать, что в Qt Creator использовал qmake. Вопрос ещё появился, а Qt Creator используют вообще или есть vscode расширения? 
+БД находится в server_v1 и называется lamps.db с единиственной таблицей
+lamps(lamp_id INTEGER PRIMARY KEY AUTOINCREMENT, lamp_on BOOL)
+##### Надо указать полный путь до БД. Файл server_v1/main.cpp строчка 26 
 
 
 
